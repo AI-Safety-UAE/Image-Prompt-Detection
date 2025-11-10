@@ -1,0 +1,9 @@
+services:
+  ai_safety_app:
+    build: .
+    container_name: ai-safety-detector
+    ports:
+      - "7860:7860"
+    volumes:
+      - .:/app
+    command: gradio app.py
