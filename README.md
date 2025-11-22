@@ -25,19 +25,13 @@ This project addresses the critical vulnerability of AI systems to prompt inject
 
 ### Installation & Running
 
-1.  **Clone the Repository**
-    ```bash
-    git clone <your-repository-url>
-    cd ai-safety-detector
-    ```
-
-2.  **Build and Run the Docker Container**
+1.  **Build and Run the Docker Container**
     Use Docker Compose to build the image and start the application. This single command handles all dependencies and configurations.
     ```bash
     docker-compose up --build
     ```
     - The first time you run this, Docker will download the base image and install Tesseract, which may take a few minutes. Subsequent runs will be much faster.
 
-3.  **Access the Application**
+2.  **Access the Application**
     Once the container is running, open your web browser and navigate to:
     [**http://localhost:7860**](http://localhost:7860)

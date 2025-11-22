@@ -6,4 +6,6 @@ services:
       - "7860:7860"
     volumes:
       - .:/app
+    env_file:
+      - .env
     command: gradio app.py

@@ -1,7 +1,11 @@
-gradio
+gradio>=4.0.0
 Pillow
 pytesseract
 
-
 opencv-python-headless
 numpy
+pandas
+
+openai 
+matplotlib
+python-dotenv
