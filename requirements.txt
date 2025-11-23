@@ -1,7 +1,3 @@
 gradio
-Pillow
-pytesseract
-
-
-opencv-python-headless
-numpy
+openai 
+matplotlib
