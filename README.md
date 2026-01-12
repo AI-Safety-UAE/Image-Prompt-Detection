@@ -151,12 +151,6 @@ Run the application:
 python app.py
 ```
 
-The interface will be available at:
-
-```
-http://localhost:7860
-```
-
 ---
 
 ## Analytics Data
